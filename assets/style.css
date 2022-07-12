@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+body {
+   background-color: rgb(216, 210, 201);
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   width: 100vw;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(125, 95, 153);
+    padding: 20px;
+    height: 40%;
+    width: 40%;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    
+}
